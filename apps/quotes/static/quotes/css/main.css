@@ -1,0 +1,47 @@
+h4, h1{
+    margin-left: 20px;
+}
+div.left{
+    background-color: lightcyan;
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+div.right{
+    background-color: beige;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.quotes{
+    width: 400px;
+    min-height: 150px;
+    background-color: azure;
+    border: 1px dashed black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.show{
+    width: 600px;
+    min-height: 50px;
+    border: 1px dashed black;
+    margin-bottom: 10px;
+}
+
+div.register{
+    background-color: wheat;
+    margin-left:20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height:300px;
+}
+div.login{
+    background-color: rgb(218, 211, 199);
+    margin-left:20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height:300px;
+}
