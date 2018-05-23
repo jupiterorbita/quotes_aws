@@ -134,6 +134,7 @@ def edit_method(request):
 # =========================== LOGOUT ===========================
 def logout(request):
     print('\n= = = LOGOUT = = =')
+    request.session.pop('id')
     request.session.clear()
     return redirect('/')
 
